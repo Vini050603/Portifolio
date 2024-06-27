@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.16.2/phaser.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="entradaUsuario">
+      <form id="usuarioForm">
+          <label for="nomeUsuario">Insira seu nome:</label><br>
+          <input type="text" id="nomeUsuario" name="nomeUsuario"><br>
+          <input type="submit" value="Iniciar Jogo">
+      </form>
+    </div>
+    
+    <script src="inicial.js"></script>
+    <script src="instrucoes.js"></script>
+    <script src="sobre.js"></script>
+      <script src="lista.js"></script>
+    <script src="historia.js"></script>
+    <script src="florestaPrinc.js"></script>
+    <script src="cidadePrinc.js"></script>
+    <script src="cemiterio.js"></script>
+    <script src="cemiterioPrinc.js"></script>
+    <script src="final.js"></script>
+    <script src="gameover.js"></script>
+    <script src="config.js"></script>
+
+    <script>
+      window.addEventListener('load', () => {
+        const usuarioForm = document.getElementById('usuarioForm');
+        usuarioForm.addEventListener('submit', (event) => {
+          // impede o envio do formulário
+          event.preventDefault();
+
+          const nomeUsuario = document.getElementById('nomeUsuario').value;
+
+          if (nomeUsuario) {
+            // Iniciar o jogo aqui, com nomeUsuario como o nome do jogador
+            console.log('Iniciar o jogo com nome de usuário:', nomeUsuario);
+          } else {
+            // O usuário não inseriu um nome, então não fazemos nada
+            console.log('Nome de usuário não inserido');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
