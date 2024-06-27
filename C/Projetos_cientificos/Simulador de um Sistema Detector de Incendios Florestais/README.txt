@@ -5,7 +5,7 @@ Portugês:
 		Lucas Bomfim
 		Vinicius Matheus
 	
-	** Trabalho: Simulador de um Sistema Detector de Incêndios Florestais **
+	** Trabalho: Simulador de um Sistema Detector de Incêndios Florestais com Threads**
 	
 	** Para compilar e executar: 
 	
@@ -26,7 +26,7 @@ Inglês:
 	Lucas Bomfim
 	Vinicius Matheus
 	
-	** Project: Forest Fire Detection System Simulator **
+	** Project: Forest Fire Detection System Simulator with Threads**
 	
 	** To compile and run:
 	
