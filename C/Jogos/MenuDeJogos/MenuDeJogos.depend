@@ -1,0 +1,178 @@
+# depslib dependency file v1.0
+1659485118 source:d:\projetos\htdocs\c\finish please\menudejogos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"modulologin.c"
+
+1659485448 d:\projetos\htdocs\c\finish please\menudejogos\pacman.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"bibentsaida.h"
+	"pilha.c"
+
+1659484162 d:\projetos\htdocs\c\finish please\menudejogos\bibentsaida.c
+	"bibentsaida.h"
+
+1659484330 d:\projetos\htdocs\c\finish please\menudejogos\bibentsaida.h
+	<locale.h>
+	<time.h>
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1659493171 d:\projetos\htdocs\c\finish please\menudejogos\modulologin.c
+	"modulologin.h"
+
+1659486897 d:\projetos\htdocs\c\finish please\menudejogos\modulologin.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"snake.c"
+	"velha.c"
+	"bibentsaida.c"
+	"pacman.c"
+	"forca.c"
+	"rpg.c"
+
+1659492255 d:\projetos\htdocs\c\finish please\menudejogos\snake.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	"pilha.h"
+
+1659492442 d:\projetos\htdocs\c\finish please\menudejogos\velha.c
+	"velha.h"
+
+1659492241 d:\projetos\htdocs\c\finish please\menudejogos\velha.h
+	<stdlib.h>
+	<stdio.h>
+	"pilha.h"
+
+1659487743 d:\projetos\htdocs\c\finish please\menudejogos\pacman.c
+	"pacman.h"
+
+1659484290 d:\projetos\htdocs\c\finish please\menudejogos\pilha.c
+	"pilha.h"
+
+1659484394 d:\projetos\htdocs\c\finish please\menudejogos\pilha.h
+	<stdlib.h>
+
+1659492508 d:\projetos\htdocs\c\finish please\menudejogos\snake.c
+	"snake.h"
+
+1659485118 source:f:\apresentação\nova pasta\main.c
+	<stdio.h>
+	<stdlib.h>
+	"modulologin.c"
+
+1659484162 f:\apresentação\nova pasta\bibentsaida.c
+	"bibentsaida.h"
+
+1659484330 f:\apresentação\nova pasta\bibentsaida.h
+	<locale.h>
+	<time.h>
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1659485244 f:\apresentação\nova pasta\modulologin.c
+	"modulologin.h"
+
+1659485322 f:\apresentação\nova pasta\modulologin.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"snake.c"
+	"velha.c"
+	"bibentsaida.c"
+	"pacman.c"
+	"forca.c"
+
+1659484404 f:\apresentação\nova pasta\snake.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+
+1659485482 f:\apresentação\nova pasta\velha.c
+	"velha.h"
+
+1659484414 f:\apresentação\nova pasta\velha.h
+	<stdlib.h>
+	<stdio.h>
+
+1659485448 f:\apresentação\nova pasta\pacman.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"bibentsaida.h"
+	"pilha.c"
+
+1659485472 f:\apresentação\nova pasta\snake.c
+	"snake.h"
+
+1659484358 f:\apresentação\nova pasta\forca.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<locale.h>
+	<ctype.h>
+	<time.h>
+
+1659484290 f:\apresentação\nova pasta\pilha.c
+	"pilha.h"
+
+1659484394 f:\apresentação\nova pasta\pilha.h
+	<stdlib.h>
+
+1659485384 f:\apresentação\nova pasta\pacman.c
+	"pacman.h"
+
+1659484218 f:\apresentação\nova pasta\forca.c
+	"forca.h"
+
+1659484218 d:\projetos\htdocs\c\finish please\menudejogos\forca.c
+	"forca.h"
+
+1659484358 d:\projetos\htdocs\c\finish please\menudejogos\forca.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<locale.h>
+	<ctype.h>
+	<time.h>
+
+1659486767 d:\projetos\htdocs\c\finish please\menudejogos\rpg.c
+	"rpg.h"
+
+1659486852 d:\projetos\htdocs\c\finish please\menudejogos\rpg.h
+	"personagem.h"
+	"tutorial.h"
+	"pilha.h"
+	"inventario.h"
+	"corredor1.h"
+	"corredor2.h"
+	"corredor3.h"
+
+1659484388 d:\projetos\htdocs\c\finish please\menudejogos\personagem.h
+
+1659484408 d:\projetos\htdocs\c\finish please\menudejogos\tutorial.h
+
+1659484364 d:\projetos\htdocs\c\finish please\menudejogos\inventario.h
+
+1659484338 d:\projetos\htdocs\c\finish please\menudejogos\corredor1.h
+
+1659484344 d:\projetos\htdocs\c\finish please\menudejogos\corredor2.h
+
+1659484350 d:\projetos\htdocs\c\finish please\menudejogos\corredor3.h
+
