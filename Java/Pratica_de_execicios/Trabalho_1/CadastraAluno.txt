@@ -1,0 +1,28 @@
+package trab1_pacote;
+
+import trab1_pacote.Produto;
+
+public class CadastraAluno {
+
+	public static void main(String[] args) {
+	
+		Produto Prod1 = new Produto(codigo, descricao);
+		Produto Prod2 = new Produto(codigo, descricao, valorVenda, valorCompra);
+		
+		Prod1.codigo = 12345;
+		Prod1.descricao = "AAAA";
+		
+		Prod2.codigo = 12345;
+		Prod2.descricao = "AAAA";
+		Prod2.valorCompra = 12.14;
+		Prod2.valorVenda = 24.12;
+		
+		Double ProdutoBruto1 = CalculaLucroBruto(valorVenda, valorCompra) ;
+		Double ProdutoBruto2 = ;
+		
+		System.out.println("Codigo: "+Prod1.codigo+"");
+
+		
+	}
+
+}

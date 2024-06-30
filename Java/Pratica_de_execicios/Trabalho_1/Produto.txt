@@ -1,0 +1,31 @@
+package trab1_pacote;
+
+
+
+public class Produto {
+
+	Integer codigo;
+	String descricao;
+	Double valorCompra;
+	Double valorVenda;
+	
+
+	public Produto(Integer codigo, String descricao) {
+		this.codigo = codigo;
+		this.descricao = descricao;	
+		
+	}
+	
+	public Produto(Integer codigo, String descricao, Double valorCompra, Double valorVenda) {
+		this.codigo = codigo;
+		this.descricao = descricao;
+		this.valorCompra = valorCompra;
+		this.valorVenda = valorVenda;
+		
+	}
+	
+	public double CalculaLucroBruto(Double valorVenda, Double valorCompra) {
+		return (valorVenda - valorCompra);
+	}
+
+}
